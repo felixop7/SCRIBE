@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding:0;
+}
+nav>svg{
+    margin:1.25% 0% 0.5% 2.25%;  
+}
+
+nav{ 
+    margin:0%;
+    background-color: white;
+    opacity: 1;
+    padding-right:4.625%;
+    position: fixed;
+    top: 0;
+    width:100%;
+ 
+}
+.navdiv a{
+    color:Black;
+    text-decoration: none;
+    font-weight:bold;
+    float:right;
+    margin-top:1%;
+    padding: 0.5% 2.5% 0.5% 2.5%;
+    
+}
+nav a:hover{
+    background-color: #4D40E3;
+    border-radius:10px;
+    transition: box-shadow .3s;
+    box-shadow: 20px 20px 40px 0px rgb(0 0 0 / 50%);
+}
+nav a::after{
+    color:brown;
+}
+.svg1{
+   float: right;
+   height:25%;
+   width:25%;
+   margin:7%;
+}
+/* .introcard p{
+    font-weight:
+} */
+.introcard{
+    margin-top:7%;
+    margin-left:5%;
+    width:25em;
+    height:25em;
+    overflow:auto;
+    border-radius:8px;
+    text-align: center;
+    transition: box-shadow .3s;
+}
+.introcard>p{
+    text-align: justify;
+    padding:0% 5%;
+}
+.introcard:hover
+{
+    box-shadow: 20px 20px 40px 0px rgb(0 0 0 / 50%);
+}
+.introcard button{
+    border:none;
+    width:225px;
+    height:61px;
+    background-color:#4D40E3;
+    border-radius:10px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+.introcard button:hover
+{
+    background-color:rgb(35, 153, 35);
+    box-shadow: 20px 20px 40px 0px rgb(0 0 0 / 50%);
+}
+#svg2{
+    padding:0px;
+    background-color: black;
+}
+
